@@ -1,0 +1,18 @@
+Test Scenarios Covered
+====================================================================================================	
+1. User Registration
+2. User Invalid Login
+3. User Valid Login
+4. Personal Information
+5. Invite Friends
+6. Security Settings
+7. Logout
+	
+Observations/Bugs :
+====================================================================================================
+1) Email Verification mail is not triggered for the first time, it triggered second time when user clicked on Resend OTP =>(Resend OTP will works fine)
+2) Created New Stack Pin will not works for first time, it worked when user creating for second time
+3) Missing Password Validation message, There is no invalid credentials message when we run automation scripts.
+4) Shown only Invalid Credentials snack bar message, that to active only few seconds(Difficult to capture and Assert, it will works only sometimes)
+5) Locators should be improved, it's bit difficult to automate without proper locators and scripts efficiency will be low
+Sometimes Performance of the app is bit slow
